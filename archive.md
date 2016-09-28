@@ -2,8 +2,8 @@
 bg: "tag.jpg"
 layout: page
 permalink: /posts/
-title: "分類"
-crawlertitle: "文章分類"
+title: "Archive"
+crawlertitle: "所有文章"
 summary: "海水退了以後，你還剩下什麼？"
 active: archive
 ---
