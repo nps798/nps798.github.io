@@ -3,7 +3,7 @@ bg: "tag.jpg"
 layout: page
 permalink: /posts/
 title: "分類"
-crawlertitle: "文章分類
+crawlertitle: "文章分類"
 summary: "海水退了以後，你還剩下什麼？"
 active: archive
 ---
