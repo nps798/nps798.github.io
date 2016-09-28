@@ -2,9 +2,9 @@
 bg: "tag.jpg"
 layout: page
 permalink: /posts/
-title: "Archive"
-crawlertitle: "All articles"
-summary: "Posts about jekyll"
+title: "分類"
+crawlertitle: "文章分類
+summary: "海水退了以後，你還剩下什麼？"
 active: archive
 ---
 
