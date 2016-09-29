@@ -14,7 +14,7 @@ author: nps798
 
 ## 1.以下方指令安裝 Cocoapods  
 
-{% highlight bash linenos %}
+{% highlight linenos %}
 sudo gem install cocoapods
 {% endhighlight %}
 
@@ -87,6 +87,12 @@ target 'HealthEdu' do
 end
 {% endhighlight %}
 
+## 5.使用 pod 安裝 alamofire。
+
+同一個目錄下，
+{% highlight bash linenos %}
+pod init
+{% endhighlight %}
 
 
 
