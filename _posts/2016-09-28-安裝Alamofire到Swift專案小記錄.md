@@ -1,5 +1,5 @@
 ---
-bg: "0292 swift.png"
+bg: "0929 swift.png"
 layout: post
 title:  安裝Alamofire小記錄
 crawlertitle: "安裝Alamofire小記錄"
@@ -97,8 +97,8 @@ end
 pod init
 {% endhighlight %}
 
-這個可能會拖很久orz，一個指令就卡在那邊很尷尬。
-這時可以到 Finder 打開專案根目錄看看，是真的當機，還是有在下載。
+這個可能會拖很久orz，一個指令就卡在那邊很尷尬。  
+這時可以到 Finder 打開專案根目錄看看，是真的當機，還是有在下載。  
 像我這邊就有看到專案底下多了 pod 字眼的的檔案跟資料夾，你可以看檔案資訊，看他大小有沒有增加，  
 有增加就代表command有在跑，下載在背後進行。
 
