@@ -10,8 +10,10 @@ tags: ['Swift']
 author: nps798
 ---
 
+從Alamofire在git上的教學下手，先暫時記錄在此。
+
 # 以 Cocoapods 安裝 Alamofire
-從Alamofire在git上的教學下手  
+  
 
 ## 1.以下方指令安裝 Cocoapods  
 
