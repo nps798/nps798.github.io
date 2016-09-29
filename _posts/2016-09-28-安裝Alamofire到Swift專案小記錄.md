@@ -23,7 +23,7 @@ sudo gem install cocoapods
 
 等等....出現此錯誤
 
-{% highlight bash linenos %}
+{% highlight linenos %}
 DEVELOPER:~ Yu-Ju$ sudo gem install cocoapods
 Password:
 ERROR:  While executing gem ... (Errno::EPERM)
@@ -33,7 +33,7 @@ ERROR:  While executing gem ... (Errno::EPERM)
 聽說這是因為 OS X El Caption 的安全新設定所導致，要用其他方法解決。
 根據 [github的討論](https://github.com/CocoaPods/CocoaPods/issues/3692) 找到以下解決辦法：
 
-{% highlight bash linenos %}
+{% highlight linenos %}
 $ mkdir -p $HOME/Sofrware/ruby
 $ export GEM_HOME=$HOME/Sofrware/ruby
 $ gem install cocoapods
@@ -49,13 +49,13 @@ $ pod --version
 ## 2.設定 Cocoapods
 
 在 terminal 輸入：
-{% highlight bash linenos %}
+{% highlight linenos %}
 pod setup --verbose
 {% endhighlight %}
 
 ## 3.切換到 xcode project 根目錄，開始設定 pod
 
-{% highlight bash linenos %}
+{% highlight linenos %}
 pod init
 {% endhighlight %}
 
@@ -63,7 +63,7 @@ pod init
 
 ## 4.以文字編輯器打開 podfile 檔案，並設定引入 frameworks 細節。
 
-{% highlight bash linenos %}
+{% highlight linenos %}
 # Uncomment this line to define a global platform for your project
 # platform :ios, ‘8.0’
 
@@ -90,7 +90,7 @@ end
 ## 5.使用 pod 安裝 alamofire。
 
 同一個目錄下，
-{% highlight bash linenos %}
+{% highlight linenos %}
 pod init
 {% endhighlight %}
 
