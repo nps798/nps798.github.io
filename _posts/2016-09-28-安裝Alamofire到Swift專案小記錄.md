@@ -12,9 +12,11 @@ author: nps798
 
 一開始先從Alamofire在git上的教學下手  
 
-1.以下方指令安裝 Cocoapods 
+## 1.以下方指令安裝 Cocoapods  
 
+{% highlight bash linenos %}
 sudo gem install cocoapods
+{% endhighlight %}
 
 #但是這個指令莫名其妙執行很久，查了 Stack OverFlow 才知道其實它有在跑，只是跑很久。
 根據 [這篇](http://stackoverflow.com/questions/14355165/ xcode-installing-cocoapods-no-response) 所說，完成 gem update 後，就可以順利安裝 Cocoapods 了。
@@ -44,9 +46,49 @@ $ pod --version
 
 上面寫 Sofrware 是我不小心打錯，將錯就錯吧......
 
-2.設定 Cocoapods
+## 2.設定 Cocoapods
 
+在 terminal 輸入：
+{% highlight bash linenos %}
 pod setup --verbose
+{% endhighlight %}
+
+## 3.切換到 xcode project 根目錄，開始設定 pod
+
+{% highlight bash linenos %}
+pod init
+{% endhighlight %}
+
+如此，使用 Finder 開啟project根目錄即可發現，多了一個 podfile 檔案
+
+## 4.以文字編輯器打開 podfile 檔案，並設定引入 frameworks 細節。
+
+{% highlight bash linenos %}
+# Uncomment this line to define a global platform for your project
+# platform :ios, ‘8.0’
+
+target 'HealthEdu' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for HealthEdu
+
+  target 'HealthEduTests' do
+    inherit! :search_paths
+    pod 'Alamofire'
+    # Pods for testing
+  end
+
+  target 'HealthEduUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+{% endhighlight %}
+
+
+
 
 
 
