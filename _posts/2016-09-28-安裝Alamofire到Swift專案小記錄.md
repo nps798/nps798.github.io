@@ -1,5 +1,5 @@
 ---
-bg: "0929 swift.png"
+bg: "0929 swift.jpg"
 layout: post
 title:  安裝Alamofire小記錄
 crawlertitle: "安裝Alamofire小記錄"
