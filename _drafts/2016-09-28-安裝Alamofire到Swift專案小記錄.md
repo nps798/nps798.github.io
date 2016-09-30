@@ -72,14 +72,14 @@ pod init
 
 target 'HealthEdu' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire.git', :tag => '3.5.0' 
   use_frameworks!
 
   # Pods for HealthEdu
 
   target 'HealthEduTests' do
     inherit! :search_paths
-    pod 'Alamofire'
-    # Pods for testing
+        # Pods for testing
   end
 
   target 'HealthEduUITests' do
@@ -88,6 +88,8 @@ target 'HealthEdu' do
   end
 
 end
+
+
 {% endhighlight %}
 
 ## 5.使用 pod 安裝 alamofire。
@@ -102,6 +104,21 @@ pod init
 像我這邊就有看到專案底下多了 pod 字眼的的檔案跟資料夾，你可以看檔案資訊，看他大小有沒有增加，  
 有增加就代表command有在跑，下載在背後進行。
 
+# Alamofire 套用問題
+
+## 6.打開多出來的 .xcworkspace 檔
+
+在 HealthEdu 專案最上層，點選 Target 第一個，選 Build Phase。
+在 Link Binary with Library 選擇 + 新增「Alamofire.framework」
+
+在任一介面使用 
+{% highlight swift linenos %}
+import Alamofire
+{% endhighlight %}
+
+出現 Cannot load underlying module for 'Alamofire'，google一下，原來重開 xcode 就好了。
+
+繼續測試 Alamofire 於 程式碼中，
 
 
 
