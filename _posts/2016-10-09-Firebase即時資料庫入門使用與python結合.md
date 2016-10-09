@@ -6,7 +6,7 @@ crawlertitle: "Firebase入門使用與python結合"
 summary: "不用再自建mysql資料庫惹XD"
 date:   2016-10-09
 categories: posts
-tags: ['Firebase','Python',''ㄈ]
+tags: ['Firebase','Python']
 author: nps798
 ---
 
