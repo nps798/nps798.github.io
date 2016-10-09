@@ -10,6 +10,7 @@ tags: ['Firebase','Python',''ㄈ]
 author: nps798
 ---
 
+好久沒有來用 Rpi 了，適逢最近剛好要做一個 firebase 結合的專案，一起來嘗試看看。
 
 # Firebase入門使用與python結合
   
