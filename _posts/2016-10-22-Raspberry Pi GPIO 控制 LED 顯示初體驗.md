@@ -6,7 +6,7 @@ crawlertitle: "在Raspberry Pi GPIO 控制 LED 初體驗 (terminal+Python)"
 summary: "上次做這種事好像是高二zzz"
 date:   2016-10-22
 categories: posts
-tags: ['Raspberry pi','Maker','Python']
+tags: ['Raspberry Pi','Maker','Python']
 author: nps798
 ---
 
