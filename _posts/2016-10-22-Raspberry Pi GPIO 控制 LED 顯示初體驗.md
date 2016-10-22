@@ -88,7 +88,7 @@ gpio write 3 0
 
 ## Step3 使用 Python 控制 GPIO
 
- {% highlight linenos Python%}
+ {% highlight Python%}
 import time
 import RPi.GPIO as GPIO
 
