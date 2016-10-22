@@ -10,8 +10,8 @@ tags: ['Raspberry Pi']
 author: nps798
 ---
 
+打在這裡做個紀錄，方便日後回找。
 
-# 於Raspberry pi 3 安裝 realVNC Server紀錄
   
 
 ## 1. 在樹莓派的終端機執行底下兩行敘述，下載最新版的RealVNC軟體並解壓縮： 
