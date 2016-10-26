@@ -13,6 +13,8 @@ author: nps798
 一直想來嚐試 Rpi 上的 GPIO，想要做溫濕度感測器或是遙控之類的東西。
 今天到電子材料行先從 LED 入口（台南電子材料行還真的只有那幾家zzz...）
 
+[![railroad]({{ site.images }}/IMAG0700.jpg)]({{ site.images }}/IMAG0700.jpg)
+
 ## 所需材料
 
 - 麵包板
