@@ -20,7 +20,7 @@ category:
 
 [![]({{site.images}}/161026-jekyll-editor.png)]({{site.images}}/161026-jekyll-editor.png)
 
-[![][image1]]({{site.images}}/161026-jekyll-editor.png)
+[![][image1]][image1]
 
 [image1]: {{site.images}}/161026-jekyll-editor.png
 
