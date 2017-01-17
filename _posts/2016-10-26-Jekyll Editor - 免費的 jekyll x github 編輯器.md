@@ -17,6 +17,7 @@ category:
 右上角的記得先跟自己的 Github 帳號連結，寫好再按那個有一支筆的圖示即可送出。
 
 更猛的是，他是一個 Google Chrome 的應用程式。
-- [Jekyll 安裝連結](https://chrome.google.com/webstore/detail/jekyll-editor/dfdkgbhjmllemfblfoohhehdigokocme)
+
+[Jekyll 安裝連結](https://chrome.google.com/webstore/detail/jekyll-editor/dfdkgbhjmllemfblfoohhehdigokocme)
 
 
