@@ -12,16 +12,6 @@ category:
 
 [![][image1]][image1]
 
-![image1](image1)
-
-![image1]({{site.images}}/161026-jekyll-editor.png)
-
-![{{site.images}}/161026-jekyll-editor.png]({{site.images}}/161026-jekyll-editor.png)
-
-[![]({{site.images}}/161026-jekyll-editor.png)]({{site.images}}/161026-jekyll-editor.png)
-
-[![][image1]][image1]
-
 [image1]: {{site.images}}/161026-jekyll-editor.png
 
 左方是原始碼編輯，右邊是預覽區，不能打字。上方工具列看來該有的都有，唯一好奇的是圖片的設定還是要用絕對位址的方式指定。看來下午該來研究一下！
