@@ -20,6 +20,6 @@ category:
 
 更猛的是，他是一個 Google Chrome 的應用程式。
 
-[Jekyll 安裝連結](https://chrome.google.com/webstore/detail/jekyll-editor/dfdkgbhjmllemfblfoohhehdigokocme)請點此!
+[Jekyll 安裝連結](https://chrome.google.com/webstore/detail/jekyll-editor/dfdkgbhjmllemfblfoohhehdigokocme)請點此
 
 
