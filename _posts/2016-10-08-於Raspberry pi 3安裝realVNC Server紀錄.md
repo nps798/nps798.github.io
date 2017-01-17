@@ -10,9 +10,12 @@ tags: ['Raspberry Pi']
 author: nps798
 ---
 
-打在這裡做個紀錄，方便日後回找。
+打在這裡做個紀錄，方便日後回找。VNC 是玩 Raspberry pi 的入門。
 
-  
+# 161224-29 後記
+新版的 raspberry pi 似乎就內建 VNC Server 了。
+> From the September 2016 version of Raspbian, VNC Server is built-in to the Raspberry Pi, licensed for non-commercial use and ready for use.
+但我安裝新版 Raspbian 仍沒辦法直接啟用VNC Server，後來還是依照以下方式手動安裝。
 
 ## 1. 在樹莓派的終端機執行底下兩行敘述，下載最新版的RealVNC軟體並解壓縮： 
 
@@ -40,7 +43,7 @@ sudo vnclicense -add 這裡放授權碼
 ## 4. 設定密碼For Service Mode
 
 {% highlight linenos %}
-sudo vncpasswd -user
+sudo vncpasswd -service
 {% endhighlight %}
 
 接著他會請你輸入兩次密碼，做為確認。
