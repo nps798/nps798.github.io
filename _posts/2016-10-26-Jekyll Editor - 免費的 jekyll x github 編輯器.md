@@ -10,7 +10,7 @@ category:
 自從前幾個月開始用 Jekyll 架設部落格在 Github 之後，一直都是用程式宅在用的 Selenium 來寫部落文章。雖然 Jekyll 這種靜態部落格是為了像是我們喜歡把自己埋在Code之中的人而生的，但是每次寫文章都像是在打Code還真的有點不方便，一方面還要設定標題、標籤、背景圖片、什麼的還真的有點不方便，找看看有沒有現成的免費編輯器，哎，果真的有欸 -- Jekyll Editor
 
 
-![image1]
+![image1][image1]
 
 [image1]: {{site.images}}/161026-jekyll-editor.png
 
@@ -20,6 +20,6 @@ category:
 
 更猛的是，他是一個 Google Chrome 的應用程式。
 
-[Jekyll 安裝連結](https://chrome.google.com/webstore/detail/jekyll-editor/dfdkgbhjmllemfblfoohhehdigokocme)請點此
+[Jekyll 安裝連結](https://chrome.google.com/webstore/detail/jekyll-editor/dfdkgbhjmllemfblfoohhehdigokocme)
 
 
