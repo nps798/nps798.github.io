@@ -1,5 +1,7 @@
 ---
 layout: default
+comments: true
+# other options
 ---
 <article class="post">
 
@@ -20,12 +22,12 @@ layout: default
 
     {% if page.next.url %}
       <a class="link-to-post" href="{{ page.next.url }}">
-        <span class="link-to-post__next">&#10535; &nbsp;Next post</span>
+        <span class="link-to-post__next">&#10535; &nbsp;下一篇</span>
         <span class="link-to-post__title">{{ page.next.title }}</span>
       </a>
     {% elsif page.previous.url %}
       <a class="link-to-post" href="{{ page.previous.url }}">
-        <span class="link-to-post__prev">&#10535; &nbsp;Previous post</span>
+        <span class="link-to-post__prev">&#10535; &nbsp;上一篇</span>
         <span class="link-to-post__title">{{ page.previous.title }}</span>
       </a>
     {% endif %}
