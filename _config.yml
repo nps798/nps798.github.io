@@ -17,7 +17,7 @@ lang: "zh_tw"
 url: "https://blog.medcode.in" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  nps798
-disqus_username: nps798
+disqus_shortname: "blog-medcode-in"
 
 # Build settings
 markdown: kramdown
