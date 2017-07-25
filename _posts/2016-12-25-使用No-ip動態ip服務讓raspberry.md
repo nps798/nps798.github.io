@@ -1,12 +1,12 @@
 --- 
-bg: "rails.jpg" 
+image: "img/rails.jpg" 
 layout: post 
 title: 使用No-ip動態ip服務讓raspberry 
 summary: "" 
 date: 2016-12-25 
 categories: posts 
 tags: ['RaspberryPi'] 
-author: nps798 
+author: nps798
 ---
 
 最近想把 Raspberry Pi 放在家中跑監視器功能，回學校可以透過網路慢慢監看它的運作情況。為此，有必要來使用一下已經發展很久的Dynamic Ip 對應網域的服務，從我小時候就有的啦ＲＲＲ

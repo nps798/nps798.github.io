@@ -1,5 +1,5 @@
 ---
-bg: "rails.jpg"
+image: "img/rails.jpg"
 layout: post
 title:  在MBPR上使用Python Virtual Display虛擬顯示
 crawlertitle: "在MBPR上使用Python Virtual Display虛擬顯示"

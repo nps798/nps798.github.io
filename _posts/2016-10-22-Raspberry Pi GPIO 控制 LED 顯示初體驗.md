@@ -1,5 +1,5 @@
 ---
-bg: "rails.jpg"
+image: "img/rails.jpg"
 layout: post
 title:  在Raspberry Pi GPIO 控制 LED 初體驗
 crawlertitle: "在Raspberry Pi GPIO 控制 LED 初體驗 (terminal+Python)"

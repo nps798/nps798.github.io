@@ -1,5 +1,5 @@
 ---
-bg: "rails.jpg"
+image: "img/rails.jpg"
 layout: post
 title:  Firebase入門使用與python結合
 crawlertitle: "Firebase入門使用與python結合"

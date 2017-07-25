@@ -1,5 +1,5 @@
 ---
-bg: "rails.jpg"
+image: "img/rails.jpg"
 layout: post
 title:  於Raspberry pi 3 安裝 realVNC Server紀錄
 crawlertitle: "於Raspberry pi 3 安裝 realVNC Server紀錄"
