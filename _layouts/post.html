@@ -1,7 +1,5 @@
 ---
 layout: default
-comments: true
-# other options
 ---
 <article class="post">
 
@@ -33,6 +31,7 @@ comments: true
     {% endif %}
 
     {% if page.comments %}
+      <a href="{{ page.url }}#disqus_thread">0 Comments</a>
       <div id="disqus_thread"></div>
       <script>
       /**
