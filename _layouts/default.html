@@ -1,0 +1,22 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.png" | prepend: site.baseurl }}" >
+  {% include head.html %}
+
+  <body>
+    <div id="shadow"></div>
+
+      {% include header.html %}
+      {% include aside.html %}
+
+    <main class="content-wrapper">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+</html>
