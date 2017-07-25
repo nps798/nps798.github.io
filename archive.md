@@ -4,7 +4,7 @@ layout: page
 permalink: /posts/
 title: "Archive"
 crawlertitle: "所有文章"
-summary: "海水退了以後，你還剩下什麼？"
+summary: "都放在這裡啦"
 active: archive
 ---
 
