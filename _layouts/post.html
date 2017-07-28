@@ -7,14 +7,19 @@ comments: true
 
   <h1 class="post-title">{{ page.title }}</h1>
 
+
   <p class="post-meta">
-    <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%d-%m-%Y" }}</time>
+    <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%Y-%m-%d" }}</time>
 
     {% if page.author %}
       &nbsp;/&nbsp;
       <span>{{ page.author }}</span>
     {% endif %}
   </p>
+
+  <div class="post-bg">
+    <img src="{{ site.url }}{{ site.images }}/{{ page.bg }}">
+  </div>
 
   <div class="post-content">
 
