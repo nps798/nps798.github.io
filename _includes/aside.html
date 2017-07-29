@@ -1,4 +1,8 @@
-  <aside class="sidebar" role="note" style="background-image: url({{ site.url }}{{ site.images }}/BG_light.jpg); background-position: 70%;">
+  {% if page.tags %}
+    <aside class="sidebar" role="note" style="background-image: url({{ site.url }}{{ site.images }}/BG_light.jpg); background-position: 70%;">
+  {% else %}
+    <aside class="sidebar" role="note" style="background-image: url({{ site.url }}{{ site.images }}/bg.svg);">
+  {% endif %}
 
 
   <div class="cover">
